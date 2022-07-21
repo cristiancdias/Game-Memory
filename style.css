@@ -5,8 +5,9 @@
 }
 
 body {
-  height: 100vh;
-  width: 100vw;
+  overflow: hidden;
+  height: 90vh;
+  width: 90vw;
   display: flex;
   background: url(./img/patrulha-fundo.jpg);
   background-size: cover;
@@ -42,7 +43,7 @@ body {
 .card-back {
   width: 100%;
   height: 100%;
-  padding: 20px;
+  padding: 10px;
   position: absolute;
   border-radius: 5px;
   background: #ffffff;
