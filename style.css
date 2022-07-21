@@ -6,8 +6,10 @@
 
 body {
   height: 100vh;
+  width: 100vw;
   display: flex;
-  background-color: aqua;
+  background: url(./img/patrulha-fundo.jpg);
+  background-size: cover;
 }
 
 .memory-game {
