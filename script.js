@@ -17,6 +17,30 @@ function chama() {
   ryder.play()
 }
 
+function chaseCard() {
+  ryder.play()
+}
+
+function marshallCard() {
+  marshall.play()
+}
+
+function rockyCard() {
+  rocky.play()
+}
+
+function skyCard() {
+  sky.play()
+}
+
+function zumaCard() {
+  zuma.play()
+}
+
+function rubbleCard() {
+  ryder.play()
+}
+
 function flipCard() {
   if (lockBoard) return
   if (this === firstCard) return
