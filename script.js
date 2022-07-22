@@ -3,8 +3,18 @@ let hasFlippedCard = false
 let firstCard, secondCard
 let lockBoard = false
 
+let ryder = document.getElementById("ryder")
+let marshall = document.getElementById("marshall")
+let rocky = document.getElementById("rocky")
+let sky = document.getElementById("sky")
+let zuma = document.getElementById("zuma")
+
 function reset() {
   window.location.reload()
+}
+
+function chama() {
+  ryder.play()
 }
 
 function flipCard() {
