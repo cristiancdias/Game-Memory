@@ -8,6 +8,8 @@ let marshall = document.getElementById("marshall")
 let rocky = document.getElementById("rocky")
 let sky = document.getElementById("sky")
 let zuma = document.getElementById("zuma")
+let chase = document.getElementById("chase")
+let rubble = document.getElementById("rubble")
 
 function reset() {
   window.location.reload()
@@ -18,27 +20,33 @@ function chama() {
 }
 
 function chaseCard() {
-  ryder.play()
+  if (lockBoard) return
+  chase.play()
 }
 
 function marshallCard() {
+  if (lockBoard) return
   marshall.play()
 }
 
 function rockyCard() {
+  if (lockBoard) return
   rocky.play()
 }
 
 function skyCard() {
+  if (lockBoard) return
   sky.play()
 }
 
 function zumaCard() {
+  if (lockBoard) return
   zuma.play()
 }
 
 function rubbleCard() {
-  ryder.play()
+  if (lockBoard) return
+  rubble.play()
 }
 
 function flipCard() {
